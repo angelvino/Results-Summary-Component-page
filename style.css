@@ -1,0 +1,114 @@
+/* style */
+.container {
+  display: flex;
+  height: auto;
+  width: auto;
+  border-radius: 75px 75px;
+}
+
+.page-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh;
+}
+
+.left, .right {
+  flex: 2;
+  padding: 20px;
+  border-radius: 0 0 0 10px;
+}
+
+.left {
+  background-color: blue;
+  border-radius: 75px 75px;
+  color: white;
+}
+
+.right {
+  background-color: whitesmoke;
+  border-radius: 90px 90px;
+  /* border-radius: 0 0 10px 10px; */
+}
+h3,h5{
+  text-align: center;
+  color: white;
+}
+.circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #3366ff;
+  color: white;
+  text-align: center;
+  line-height: 20px;
+  margin: auto 50px; /* Adjust margin to position it properly */
+  opacity: 0.9;
+}
+.box1 {
+  height: 30px;
+  width: 250px;
+  padding:20px;
+  border:10px;
+  margin:15px;
+  align-items: center; /* Align items vertically centered */
+  border-radius: 70px;
+ background: #FFCAD4;
+ color:#C51605  ;
+}
+
+.box2 {
+  height: 30px;
+  width: 250px;
+  padding:20px;
+  border:10px;
+  margin:15px;
+  align-items: center; /* Align items vertically centered */
+  border-radius: 70px;
+ background: #F6FDC3;
+ color:#9f4504;
+}
+
+.box3 {
+  height: 30px;
+  width: 250px;
+  padding:20px;
+  border:10px;
+  margin:15px;
+  align-items: center; /* Align items vertically centered */
+  border-radius: 70px;
+ background: #BBE2EC;
+ color:#0D9276;
+}
+
+.box4 {
+  height: 30px;
+  width: 250px;
+  padding:20px;
+  border:10px;
+  margin:15px;
+  align-items: center; /* Align items vertically centered */
+  border-radius: 70px;
+ background: #C0D6E8;
+ color:#00224D;
+}
+.btn{
+  background-color: #00224D;
+  color:white;
+  border-radius: 20px;
+  text-align: center;
+  padding:20px;
+  margin:15px;
+  width:250px;
+  height:10px;
+  }
+.reaction-image {
+  display: inline-block; /* Display the image inline with text */
+  vertical-align: middle; /* Align the image vertically with text */
+}
+
+h4 {
+  display: inline; /* Display the text inline */
+  /* color: orange; */
+  margin-left: 10px; /* Add some spacing between the image and text */
+}
